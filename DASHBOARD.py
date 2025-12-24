@@ -1313,7 +1313,7 @@ elif st.session_state.page == "Evaluasi":
 
     st.subheader("🌥️ Tema Umum Umpan Balik Peserta")
     wordcloud_path = (
-        r"wordcloudD.png"
+        r"WORDCLOUDD.png"
     )
     try:
         st.image(
@@ -1588,4 +1588,5 @@ elif st.session_state.page == "Tentang":
         "Sistem ini dikembangkan sebagai bagian dari kegiatan magang dan digunakan "
         "untuk kepentingan internal monitoring dan evaluasi pelatihan."
     )
+
 
